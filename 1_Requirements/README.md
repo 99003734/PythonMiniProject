@@ -18,3 +18,32 @@
 | HLR03-LR1 | Reading Data | Reading all 5 Worksheets from workbook | Implementing |
 | HLR03-LR2 | Searching Data | Search for specific data based on user specific inputs | Implementing |
 | HLR03-LR3 | Writing Paricular Data | Only specific kind of data should be written to Mastersheet | Implementing |
+
+
+## 4W'S and 1"H:
+## What:
+* We are preparing master sheet to search and retrieve data
+* It is used for easy search of a particular data of a person
+* Provides information of every person details like bio,academic
+
+
+## When:
+* Evalaution of Marks
+* Searching for person information
+* Contact Information
+
+## Where:
+* To check the information and bio of a person
+* We can also use it for evaluation of marks using the mail,search the location of person
+
+## Who:
+* People in the organisation ,managers ,colleagues
+* Mentors and GEA academy can use the data for evaluation
+
+## How:
+* Input:- giving the Name, PsNo, and Email Id of a person
+* Output:- gives all the relevant information of person related to Name, PsNo, and Email
+* Source:- excel sheets give the output into the master sheet
+
+
+
