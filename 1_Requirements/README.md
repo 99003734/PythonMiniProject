@@ -20,6 +20,15 @@
 | HLR03-LR3 | Writing Paricular Data | Only specific kind of data should be written to Mastersheet | Implementing |
 
 
+
+
+## SWOT Analysis
+
+![SWOT Analysis](https://user-images.githubusercontent.com/78858575/111780469-78287780-88dd-11eb-8438-2637230c6579.png)
+
+
+
+
 ## 4W'S and 1"H:
 ## What:
 * We are preparing master sheet to search and retrieve data
@@ -45,9 +54,5 @@
 * Output:- gives all the relevant information of person related to Name, PsNo, and Email
 * Source:- excel sheets give the output into the master sheet
 
-
-## SWOT Analysis
-
-![SWOT Analysis](https://user-images.githubusercontent.com/78858575/111780469-78287780-88dd-11eb-8438-2637230c6579.png)
 
 
