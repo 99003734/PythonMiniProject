@@ -1,3 +1,8 @@
+## High Level UML Diagram
+## Class Diagram
+
+![Class Diagram](https://user-images.githubusercontent.com/78858575/111776208-bae75100-88d7-11eb-9c99-0f8ecbac5755.png)
+
 ## Low Level UML Diagram
 ## Sequence Diagram
 
