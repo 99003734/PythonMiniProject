@@ -1,3 +1,7 @@
+## High Level UML Diagram
+## Class Diagram
+
+![Class DIagram](https://user-images.githubusercontent.com/78858575/111865341-8da8aa80-898c-11eb-842f-82752582cc8e.png)
 
 
 
