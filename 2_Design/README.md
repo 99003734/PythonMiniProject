@@ -1,7 +1,9 @@
 ## High Level UML Diagram
 ## Class Diagram
 
-![Class DIagram](https://user-images.githubusercontent.com/78858575/111865341-8da8aa80-898c-11eb-842f-82752582cc8e.png)
+
+![class Diagram](https://user-images.githubusercontent.com/78858575/111865386-bd57b280-898c-11eb-8ae5-ef47a0823149.png)
+
 
 
 
