@@ -5,7 +5,7 @@
 """In this program iam using openpyxl library to get the details of a
 particular person from 5 excels files with the help of name,ps no,email id and
 writing the data in a master sheet, these excel files are present in a different
-directory"""
+directory and i have written this code in ubuntu"""
 
 # import libraries
 
