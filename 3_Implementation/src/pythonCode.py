@@ -1,3 +1,4 @@
+# Run the code in ubuntu because the logic that i have written for differnet excels present in differnet directories runs on ubuntu
 # Author : Shaik Akbar Basha
 # PsNo: 99003734
 # Email id: shaik.basha1@ltts.com
