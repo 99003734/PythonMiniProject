@@ -1,4 +1,6 @@
-# Run the code in ubuntu because the logic that i have written for differnet excels present in differnet directories runs on ubuntu
+# Run the code in ubuntu because the logic that i have written for differnet excels present in differnet directories and for those directory location i have used ubuntu
+# In windows the directory location is different , run this code in ubuntu
+
 # Author : Shaik Akbar Basha
 # PsNo: 99003734
 # Email id: shaik.basha1@ltts.com
@@ -34,6 +36,7 @@ class Read:
         print(FileStatus)
         
 #To check the existance of Excel file in a directory
+# Logic works on ubuntu
 
         for loc in locs:
             for root, dir, files in os.walk("/"):
