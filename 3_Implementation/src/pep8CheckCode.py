@@ -1,9 +1,29 @@
+""" Run the code in ubuntu because the logic that i have written for differnet
+excels present in differnet directories and for those directory location
+i have used ubuntu"""
+
+# In windows the directory location is different , run this code in ubuntu
+# Author : Shaik Akbar Basha
+# PsNo: 99003734
+# Email id: shaik.basha1@ltts.com
+
+
+# import libraries
+
 import xlrd
 import xlsxwriter
 import openpyxl as op
 import os.path
 from os import path
 import os
+
+"""In this program iam using openpyxl library to get the details of a
+particular person from 5 excels files with the help of name,psno,emailid and
+writing the data in a mastersheet, these excel files are present in a different
+directory"""
+
+
+# Using Classes and functions and passing mane,PsNo,Email id as parameters
 
 
 class Read:
@@ -14,8 +34,11 @@ class Read:
                 'sample4.xlsx', 'sample5.xlsx']
         counter = 0
         masterName = "masterSheet.xlsx"
+# To check the path existance of master sheet
         FileStatus = path.exists(masterName)
         print(FileStatus)
+# To check the existance of Excel file in a directory
+# Logic works on ubuntu
         for loc in locs:
             for root, dir, files in os.walk("/"):
                 if loc in files:
@@ -38,6 +61,7 @@ class Read:
                         for i in sheet.row_values(i)[3:]:
                             res.append(i)
         print(res)
+# Master sheet is present and writing data to the master sheet
         if FileStatus is True:
             print('Master Sheet is Present')
             wb1 = op.load_workbook(masterName)
@@ -45,6 +69,8 @@ class Read:
             ws.append(res)
             wb1.save(masterName)
             wb1.close()
+
+# Create a Mastersheet workbook and add a worksheet
         else:
             print('Creating master sheet')
             workbook = xlsxwriter.Workbook(masterName)
@@ -59,18 +85,23 @@ class Read:
                       'Physics', 'Chemistry', 'CGPA', 'Gender',
                       'Marital Status', 'Aadhar Number',
                       'Pan Number', 'Place Of Birth', 'Pincode', 'Age']
+# Start from the first cell. Rows and columns are zero indexed.
+# Adding headers to the master sheet
             row = 0
             col = 0
             for coloumn in (header):
                 worksheet.write(row, col, coloumn)
                 col += 1
+# Writing data to the worksheet
             datarow = 0
             datacol = 0
             for data in (res):
                 worksheet.write(datarow + 1, datacol, data)
                 datacol += 1
             workbook.close()
+# Creating 'p1' object
 p1 = Read()
+# passing name, psno, email id as agruments in a workbook function
 inputs = input("How many inputs: ")
 for i in range(int(inputs)):
     name = input("Enter Name: ")
