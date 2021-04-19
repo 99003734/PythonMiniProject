@@ -1,7 +1,7 @@
 ## HIGH LEVEL TEST PLAN
 |**SL No**|**Description**|**Expected Input**|**Expected Output**|**Actual Output**|**Type of Test**|
 | :- | :- | :- | :- | :- | :- |
-|1|To search by Name, PsNo, EmailId|<p>Number of inputs you want:</p>|To retrieve the data of a particular person from different excels which are present in different directories with inputs like PS number, name, email id. The required output is all the candidate data and stored in the master sheet.|To retrieve the data of a particular person from different excels which are present in different directories with inputs like PS number, name, email id. The required output is all the candidate data and stored in the master sheet.|Requirement based|0
+|1|To search by Name, PsNo, EmailId</p>|Number of inputs you want:</p>|To retrieve the data of a particular person from different excels which are present in different directories with inputs like PS number, name, email id. The required output is all the candidate data and stored in the master sheet.|To retrieve the data of a particular person from different excels which are present in different directories with inputs like PS number, name, email id. The required output is all the candidate data and stored in the master sheet.|Requirement based|0
 
 
 
