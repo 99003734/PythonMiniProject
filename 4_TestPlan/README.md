@@ -1,7 +1,7 @@
 ## HIGH LEVEL TEST PLAN
 |**SL No**|**Description**|**Expected Input**|**Expected Output**|**Actual Output**|**Type of Test**|
 |:-|:-|:-|:-|:-|:-|
-|1|To search by Name, PsNo, EmailId|<p>Number of inputs you want: 2</p><p></p><p>Enter NAME : Paige Williams PS No: 99003760 EMAIL ID : p.williams@randatmail.com</p><p></p><p>Enter NAME : Sam Evans PS NO : 99003784 EMAIL ID : s.evans@randatmail.com </p>|All the Data of Paige Williams and Sam Evans along with all the headers are copied to master-workbook. Also, number of rows and columns in mastersheet are displayed in summarysheet.|All the data of Paige Williams and Sam Evans along with all the headers are copied to master-workbook. Also, number of rows and columns in mastersheet are displayed in summarysheet.|Requirement based|
+|1|To search by Name, PsNo, EmailId|<p>Number of inputs you want:  </p>|To retrieve the data of a particular person from different excels which are present in different directories with inputs like PS number, name, email id. The required output is all the candidate data and stored in the master sheet.|To retrieve the data of a particular person from different excels which are present in different directories with inputs like PS number, name, email id. The required output is all the candidate data and stored in the master sheet.|Requirement based|
 
 
 
